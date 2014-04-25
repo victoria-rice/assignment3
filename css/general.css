@@ -30,7 +30,7 @@ img {
 
 .tools {
     margin: 0;
-    padding 0;
+    padding .5rem;
 }
 
 body {
@@ -94,7 +94,7 @@ article {
     padding: 0;
     overflow: hidden;
     background-image: url(../images/equipment-one.jpg);
-    background-position: auto;
+    background-position: center;
     background-size: 50rem; 
 }
 
@@ -131,7 +131,7 @@ h3 {
     font-size: 1.5rem;
 }
 figure {
-    margin: 0 3 auto;
+    margin: 0 3;
     padding: 1rem;
     width: 80%;
 }
@@ -164,7 +164,7 @@ figure a:visited {
 }
 
 .bucket2 figure {
-    margin: 0;
+    margin: 0 3% 1rem .5;
     padding: .5rem;
     border-radius: 10px;
     border: solid maroon;
