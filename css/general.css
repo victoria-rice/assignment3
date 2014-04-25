@@ -164,7 +164,7 @@ figure a:visited {
 }
 
 .bucket2 figure {
-    margin: 0 3% 1rem .5;
+    margin: 0 5% 1.5rem;
     padding: .5rem;
     border-radius: 10px;
     border: solid maroon;
@@ -175,7 +175,7 @@ figure a:visited {
 .bucket2 a:visited {
     float: left;
     width: 45%; 
-    margin: 0 7% 1.5rem 0;
+    margin: 0 7% .5rem 2;
     padding: 0;
 }
 
