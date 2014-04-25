@@ -1,0 +1,219 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-size: 100%;
+    font-family: times, georgia serif;
+    background-color: white;
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+.tools {
+    margin: 0;
+    padding 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: tan;
+}
+
+header {
+    background-color: maroon;
+}
+
+.logo {
+    width: 100%;
+    height: 10rem;
+    margin: 0;
+}
+
+.nav-top {
+    clear: both;
+}
+
+.nav-top ul {
+    margin: 0;
+    padding: 0;
+    background-color: tan;
+    text-align: center;
+}
+
+.nav-top li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-top a,
+.nav-top a:link,
+.nav-top a:visited {
+    display: inline-block;
+    margin: 0;
+    padding: 1.5rem 10%;
+    color: black;
+    font-size: 1.25rem;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.selected {
+    background-color: maroon;
+}
+
+article {
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+}
+
+.billboard {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url(../images/equipment-one.jpg);
+    background-position: auto;
+    background-size: 50rem; 
+}
+
+h1 {
+    font-family: "Raleway", 'sans-serif';
+    margin: 2rem 0 5rem;
+    padding: 5%;
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 7px 4px black;
+    color: white;
+    background-color: rgba(0, 0, 0, .6)
+}
+
+img { 
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 5%;
+    font-size: 2rem;
+}
+
+p {
+    margin: 0 0 1.5rem;
+    padding: 5%;
+}
+
+h3 {
+    margin: 0;
+    padding: 5%;
+    font-size: 1.5rem;
+}
+figure {
+    margin: 0 3 auto;
+    padding: 1rem;
+    width: 80%;
+}
+
+figure a,
+figure a:link,
+figure a:visited {
+    font-size: .875rem;
+    color: black;
+    text-decoration: none;
+}
+
+.bucket1 { 
+    overflow:  hidden;
+    background-color: tan;
+}
+
+.bucket1 figure {
+    margin: .5rem;
+    padding: 0;
+    overflow:hidden;
+    border:7px white;
+    display:inline-block;
+    background-color: white;
+}
+
+.bucket2 { 
+    overflow: hidden;
+    background-color: tan;
+}
+
+.bucket2 figure {
+    margin: 0;
+    padding: .5rem;
+    border-radius: 10px;
+    border: solid maroon;
+}
+
+.bucket2 a,
+.bucket2 a:link,
+.bucket2 a:visited {
+    float: left;
+    width: 45%; 
+    margin: 0 7% 1.5rem 0;
+    padding: 0;
+}
+
+.bucket2 a:nth-child(even) {
+    margin: 0;     
+}
+
+.bucket2 figcaption {
+    background-color:  tan; 
+}
+
+a {
+    color: black;
+}
+
+footer {
+    margin: 0;
+    padding: 1.5rem 5% 6rem;
+    background-color: maroon;
+}
+
+h4 {
+    float: right;
+    color: white;
+}
+
+.nav-bottom ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bottom a,
+.nav-bottom a:link,
+.nav-bottom a:visited {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: .875rem;
+    line-height: 1.5rem;
+}
