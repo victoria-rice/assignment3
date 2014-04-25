@@ -28,11 +28,6 @@ img {
     display: block;
 }
 
-.tools {
-    margin: 0;
-    padding .5;
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -85,7 +80,7 @@ header {
 
 article {
     margin: 0;
-    padding: 0;
+    padding: 1.5rem 5%;
     font-size: 1.3rem;
 }
 
@@ -115,26 +110,34 @@ img {
 }
 
 h2 {
-    margin: 0;
-    padding: 5%;
+    margin: .5rem;
+    padding: 0;
     font-size: 2rem;
 }
 
 p {
-    margin: 0 0 1.5rem;
-    padding: 5%;
+    margin: 0;
+    padding: .5rem 0 2rem;
 }
 
-h3 {
-    margin: 0;
-    padding: 5%;
-    font-size: 1.5rem;
-}
 figure {
     margin: 0 3;
     padding: 1rem;
     width: 80%;
 }
+
+h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+.homepage figure {
+    margin: 0 auto 1.5rem;
+    padding: 0;
+}
+}
+
 
 figure a,
 figure a:link,
@@ -161,25 +164,20 @@ figure a:visited {
 .bucket2 { 
     overflow: hidden;
     background-color: tan;
+    padding: 0 10%;
 }
 
 .bucket2 figure {
-    margin: 0 5% 1.5rem;
+    margin: 0 10% 1.5rem 0;
     padding: .5rem;
     border-radius: 10px;
     border: solid maroon;
-}
-
-.bucket2 a,
-.bucket2 a:link,
-.bucket2 a:visited {
     float: left;
-    width: 45%; 
-    margin: 0 7% .5rem 2;
+    width: 45%;
     padding: 0;
 }
 
-.bucket2 a:nth-child(even) {
+.bucket2 figure:nth-child(even) {
     margin: 0;     
 }
 
